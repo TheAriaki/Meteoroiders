@@ -9,7 +9,6 @@ This project analyzes how weather conditions affect transportation patterns in N
 │   ├── Bus_subway_Data_Ingestion.ipynb        # Data preprocessing and cleaning notebook
 │   └── Weather_metro_bus_analysis.ipynb             # Main analysis and visualization notebook
 ├── README.md
-└── requirements.txt
 ```
 
 ## Data Sources
@@ -67,13 +66,13 @@ The analysis combines several large-scale datasets:
 
 ## Usage
 The analysis is split into two main notebooks:
-1. `data_cleaning.ipynb`: Handles data preprocessing and cleaning
+1. `Bus_subway_Data_Ingestion.ipynb`: Handles data preprocessing and cleaning
    - Loads raw data
    - Standardizes formats
    - Handles missing values
    - Exports cleaned datasets
 
-2. `analysis.ipynb`: Contains the main analysis
+2. `Weather_metro_bus_analysis.ipynb`: Contains the main analysis
    - Performs statistical analysis
    - Generates visualizations
    - Builds regression models
